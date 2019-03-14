@@ -17,6 +17,7 @@ public class Faune{
       }
     }
   }
+
   public String terrain(){
     String[][] ter = new String[taille][taille];
     String s= "";
@@ -40,6 +41,7 @@ public class Faune{
     }
     return s;
   }
+
   public int getIndiceAnimalLePlusProche(Animal requete){
     double dist_min=Double.POSITIVE_INFINITY;
     int index = -1;
@@ -62,6 +64,4 @@ public class Faune{
   public Animal[] getTab(){
     return tab;
   }
-
-
 }
